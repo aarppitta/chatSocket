@@ -1,0 +1,33 @@
+<div class="container" >
+    <app-username (userNameEvent)="userNameUpdate($event)" *ngIf="!userName"></app-username>
+
+    <h1>Chat App-SocketIO</h1>
+    
+    <div #mydiv class="chatbox" #scrollButton>
+        <div class="chatbox-user-list">
+            <div class="column">
+            <h2>User List</h2>
+            <div class="chat-box-user-active" *ngFor="let user of userList"> 
+                <p>{{ user }}</p>
+            </div>
+            </div>
+        </div>
+        <div>
+
+        <div class="message-list" >
+            <div class="chatbox-messages" *ngFor="let msg of messageList" [ngClass]="{mine:msg.mine}">
+                    <div class="message-box" >
+                        <p class="username"> {{ msg.userName }}</p>
+                        <p class="mess">{{ msg.message }}</p>
+                    </div>
+            </div>
+        </div>    
+    </div>
+    <div class="footer">
+        <input type="text" [(ngModel)]="message" class="footer_input">
+        <button (click)="sendMessage()" class="footer_btn"> 💬 </button>
+    </div>
+    </div>
+    
+
+</div>

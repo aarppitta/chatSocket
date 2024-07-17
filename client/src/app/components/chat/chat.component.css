@@ -1,0 +1,94 @@
+.chatbox{
+    margin-top: 1rem;
+    height: 500px;
+    width: 100%;
+    background-color: #660033;
+    border-radius: 15px;
+}
+h1{
+    padding-left: 33rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #660033; 
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 250px; 
+  }
+
+.chat-box-user-active{
+    color: #ffcce6; 
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    padding-left: 5rem;
+    padding-top: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #ffcce6; 
+}
+.message-list{
+    margin-left: 28rem;
+    height: 500px;
+    width: 980px;
+    background-color: #ffcce6;
+    border-radius: 5px;
+}
+
+.footer{
+    padding-left: 35rem;
+}
+
+    input[type=text] {
+        padding: 1rem;
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px;
+        box-sizing: border-box;
+        border-radius: 4px;
+      }
+
+.footer_btn{
+    background-color: #660033; 
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-left: .1rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.chatbox-messages{
+    overflow-y: scroll;
+}
+
+.chatbox-messages-response{
+    overflow-y: scroll;
+
+}
+.message-box{
+    padding-left: 1rem;
+    height: 80px;
+    width: 400px;
+    background-color: #660033;
+    border-radius: 8px; 
+    text-align: start;
+}
+
+.username{
+    font-size: 24px;
+    color: #958f93;
+    margin-left: 15px;
+}
+.mess{
+    font-size: 20px;
+    color: #ffcce6;
+    margin-left: 15px;
+
+}
+
